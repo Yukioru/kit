@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
+  output: 'standalone',
   experimental: {
     ppr: true,
-    typedRoutes: true,
   },
 };
